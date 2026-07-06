@@ -7,21 +7,140 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="sidebar">
-        <img class="icon-logo" src="icons/view-dashboard.svg" alt="Logo"> Dashboard 
-        <ul>
-            <li> <img class="icon" src="icons/home.svg">Home</li>
-            <li> <img class="icon" src="icons/card-account-details-outline.svg">Profile</li>
-            <li> <img class="icon" src="icons/message-reply.svg">Messages</li>
-            <li> <img class="icon" src="icons/clock-time-three.svg">History</li>
-            <li> <img class="icon" src="icons/file-multiple.svg">Tasks</li>
-            <li> <img class="icon" src="icons/account-group.svg">Communities</li>
-        </ul>
-        <ul>
-            <li><img class="icon" src="icons/cog.svg">Settings</li>
-            <li><img class="icon" src="icons/help-box.svg">Support</li>
-            <li><img class="icon" src="icons/shield-check.svg">Privacy</li>
-        </ul>
+    <div class="container">
+        <div class="sidebar">
+            <img class="icon-logo" src="icons/view-dashboard.svg" alt="Logo"> <h2>Dashboard</h2> 
+            <ul>
+                <li> <img class="icon" src="icons/home.svg" alt="home">Home</li>
+                <li> <img class="icon" src="icons/card-account-details-outline.svg" alt="Profile">Profile</li>
+                <li> <img class="icon" src="icons/message-reply.svg" alt="messages">Messages</li>
+                <li> <img class="icon" src="icons/clock-time-three.svg" alt="history">History</li>
+                <li> <img class="icon" src="icons/file-multiple.svg" alt="tasks">Tasks</li>
+                <li> <img class="icon" src="icons/account-group.svg" alt="Communities">Communities</li>
+            </ul>
+            <ul>
+                <li><img class="icon" src="icons/cog.svg" alt="Settings">Settings</li>
+                <li><img class="icon" src="icons/help-box.svg" alt="Support">Support</li>
+                <li><img class="icon" src="icons/shield-check.svg" alt="Privacy">Privacy</li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <div class="headerTop">
+                <div class="search-group">
+                    <img class="icon" src="icons/magnify.svg" alt="search">
+                    <input type="search" class="searchField">
+                </div>
+                <div class="profile-group">
+                    <img class="icon" src="icons/bell-ring-outline.svg" alt="bell">
+                    <img class="icon" src="icons/cat.svg" alt="avatar">
+                    <h3>Morgan Oakley</h3>
+                </div>
+            </div>
+            <div class="headerBottom">
+                <div class="greeting-group">
+                    <img class="icon" src="icons/cat.svg" alt="avatar">
+                    <div>
+                        <h5>Hi there,</h5>
+                        <h2>Morgan Oakley (@morgan)</h2>
+                    </div>
+                </div>
+                <div class="action-group">
+                    <button type="button" class="buttonHeader">New</button>
+                    <button type="button" class="buttonHeader">Upload</button>
+                    <button type="button" class="buttonHeader">Share</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="main">
+            <section class="ProjectCard">
+                <h3>Your Projects</h3>
+                <div class="card">
+                    <h4>Super Cool Project</h4>
+                    <p>Sed tempus ut lacus ut scelerisque. Suspendisse sollicitudin nibh erat, id facilisis felis accumsan nec.</p>
+                    <img class="icon" src="icons/star-plus-outline.svg" alt="favorite">
+                    <img class="icon" src="icons/eye-plus-outline.svg" alt="follow">
+                    <img class="icon" src="icons/source-fork.svg" alt="share">
+                </div>
+                <div class="card">
+                    <h4>Less Cool Project</h4>
+                    <p>Nullam condimentum ipsum ut lectus vehicula consectetur. Quisque sed dolor tincidunt, consectetur sapien et, facilisis dolor. Duis sem Communities purus, dignissim ut sapien in, varius pellentesque lacus.</p>
+                    <img class="icon" src="icons/star-plus-outline.svg" alt="favorite">
+                    <img class="icon" src="icons/eye-plus-outline.svg" alt="follow">
+                    <img class="icon" src="icons/source-fork.svg" alt="share">
+                </div>
+                <div class="card">
+                    <h4>Impossible App</h4>
+                    <p>In hac habitasse platea dictumst. Vivamus dictum rutrum arcu, a placerat velit sagittis id.</p>
+                    <img class="icon" src="icons/star-plus-outline.svg" alt="favorite">
+                    <img class="icon" src="icons/eye-plus-outline.svg" alt="follow">
+                    <img class="icon" src="icons/source-fork.svg" alt="share">
+                </div>
+                <div class="card">
+                    <h4>Easy Peasy App</h4>
+                    <p>Etiam cursus eros ac efficitur fringilla. Vestibulum dignissim urna eget accumsanid. aliquam. Curabitur dignissim nisi in tortor commodo, ac bibendum magna tincidunt.</p>    
+                    <img class="icon" src="icons/star-plus-outline.svg" alt="favorite">
+                    <img class="icon" src="icons/eye-plus-outline.svg" alt="follow">
+                    <img class="icon" src="icons/source-fork.svg" alt="share">            
+                </div>
+                <div class="card">
+                    <h4>Ad Blocker</h4>
+                    <p>Quisque eget rutrum nisl. Nam augue Praesent convallis, libero quis congue justo, cursus vitae metus vel, pharetra elementum, nunc ante faucibus sapien, achendrerit felis. Aliquam sed malesuada eros.</p>
+                    <img class="icon" src="icons/star-plus-outline.svg" alt="favorite">
+                    <img class="icon" src="icons/eye-plus-outline.svg" alt="follow">
+                    <img class="icon" src="icons/source-fork.svg" alt="share">
+                </div>
+                <div class="card">
+                    <h4>Money Maker</h4>
+                    <p>Praesent convallis, libero quis congue justo, cursus vitae metus vel, pharetra scelerisque tortor purus sit amet ex. Pellentesque mollis nec sem vel aliquam.</p>
+                    <img class="icon" src="icons/star-plus-outline.svg" alt="favorite">
+                    <img class="icon" src="icons/eye-plus-outline.svg" alt="follow">
+                    <img class="icon" src="icons/source-fork.svg" alt="share"> 
+                </div>
+            </section>
+            <div class="mainRight">
+                <section class="Announcements">
+                    <h3>Announcements</h3>
+                    <div>
+                    <h5>Site Maintenance</h5>
+                    <p>Site Maintenance Vestibulum condimentum tellus lacus, in accumsan elit maximus ac. Donec hendrerit sodales congue ...</p>
+                    </div>
+                    <div>
+                    <h5>Community Share Day</h5>
+                    <p>Nam vel lectus tincidunt, rutrum nulla eu, ornare libero. Aliquam dictum accumsan porttitor ...</p>
+                    </div>
+                    <div>
+                    <h5>Updated Privacy Policy</h5>
+                    <p>Phasellus efficitur nisi eget elit consectetur, eget condimentum ante auctor. Cras fringilla sagittis sem in mattis ...</p>
+                    </div>
+                </section>
+                <section class="Trending">
+                    <h3>Trending</h3>
+                    <div>
+                    <img class="icon" src="icons/horse.svg" alt="Avatar">
+                    <span class="handle">@tegan</span>
+                    <p class="subtext">World Peace Builder</p>
+                    </div>
+                    <div>
+                    <img class="icon" src="icons/cat.svg" alt="Avatar">
+                    <span class="handle">@morgan</span>
+                    <p class="subtext">Super Cool Project</p>
+                    </div>
+                    <div>
+                    <img class="icon" src="icons/spider.svg" alt="Avatar">
+                    <span class="handle">@kendall</span>
+                    <p class="subtext">Life Changing App</p>
+                    </div>
+                    <div>
+                    <img class="icon" src="icons/penguin.svg" alt="Avatar">
+                    <span class="handle">@alex</span>
+                    <p class="subtext">No Trafic Maker</p>
+                    </div>
+                </section>
+            </div>
+        <div>
     </div>
+
 </body>
 </html>
