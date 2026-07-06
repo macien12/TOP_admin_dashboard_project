@@ -3,7 +3,20 @@
   padding: 0;
 }
 
-.icon {
+
+
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.icon, .icon-logo {
+    width: 25px;
+    color: white;
+    filter: invert(100%);
+}
+
+.iconHeader, .iconMain, .iconMainRight {
     width: 25px;
 }
 
@@ -20,6 +33,30 @@
     background-color: lightblue;
     grid-column: 1 / 2;
     grid-row: 2 / -2;
+    background-color: #1992d4;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-weight: bold;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-content: center;
+    
+}
+
+.sidebar li {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 1.1em;
 }
 
 .header {
@@ -36,8 +73,10 @@
 }
 
 .main {
-    background-color: lightpink;
+    background-color: rgba(227, 227, 227, 0.739);
     grid-column: 2 / 3;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .search-group, .profile-group {
@@ -81,9 +120,6 @@
     background-color: white;
 }
 
-
-
-
 .searchField {
     width: 100%;
     border-radius: 60px;
@@ -91,4 +127,33 @@
     background-color: #e2e8f0; 
     padding: 10px 20px; 
     max-width: 600px;
+}
+
+.logo {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    border-left: 10px solid orange;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: auto;
+    justify-content: flex-end;
 }
